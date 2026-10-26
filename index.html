@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Q426 realm power comparison and change explorer for the Top 200 population.">
+  <title>Q426 · Realm comparison</title>
+  <link rel="stylesheet" href="styles.css?v=20261026-4">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">CALL OF DRAGONS · SOS3-5091</p>
+        <h1>Realm pulse</h1>
+        <p class="lede">Exact Top 200 realm totals: one complete overview, followed by focused change analysis.</p>
+      </div>
+      <div class="status" id="source-status"><span class="dot"></span><span>Loading archive…</span></div>
+    </header>
+
+    <section class="panel overview" aria-labelledby="overview-title">
+      <div class="panel-head">
+        <div>
+          <p class="kicker">01 · Realm overview</p>
+          <h2 id="overview-title">Current totals &amp; 24-hour change</h2>
+          <p id="overview-period" class="muted">Waiting for two exact daily observations.</p>
+        </div>
+      </div>
+      <div class="table-wrap overview-wrap">
+        <table class="overview-table">
+          <thead id="overview-head"></thead>
+          <tbody id="overview-body"></tbody>
+        </table>
+      </div>
+      <div class="empty" id="overview-empty" hidden>
+        <strong>Two exact snapshots are needed.</strong>
+        <span>Current values will appear beside their exact 24-hour changes.</span>
+      </div>
+    </section>
+
+    <section class="panel daily" aria-labelledby="daily-title">
+      <div class="panel-head">
+        <div>
+          <p class="kicker">02 · Metric drill-down</p>
+          <h2 id="daily-title">Yesterday → latest</h2>
+          <p id="daily-period" class="muted">Waiting for two exact daily observations.</p>
+        </div>
+        <label class="field compact">Metric
+          <select id="daily-metric"></select>
+        </label>
+      </div>
+      <div class="summary-strip" id="daily-summary"></div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Realm</th><th>Side</th><th class="number">Current</th><th class="number">24h change</th><th class="number">Change %</th><th>Movement</th></tr></thead>
+          <tbody id="daily-body"></tbody>
+        </table>
+      </div>
+      <div class="empty" id="daily-empty" hidden>
+        <strong>Two exact snapshots are needed.</strong>
+        <span>The page has one honest job here: never turn rounded display values into invented changes.</span>
+      </div>
+    </section>
+
+    <section class="panel explorer" aria-labelledby="explorer-title">
+      <div class="panel-head">
+        <div>
+          <p class="kicker">03 · Period explorer</p>
+          <h2 id="explorer-title">Season & zone change</h2>
+          <p class="muted">Choose a window, metric and realm group. The same selection drives the chart and detail table.</p>
+        </div>
+      </div>
+      <div class="filters" aria-label="Explorer filters">
+        <label class="field">Period<select id="period-filter"></select></label>
+        <label class="field">Metric<select id="metric-filter"></select></label>
+        <label class="field">Realms<select id="team-filter"><option value="all">All realms</option><option value="allies">Allies</option><option value="enemies">Enemies</option></select></label>
+      </div>
+      <div class="explorer-grid">
+        <div class="chart-card">
+          <div class="chart-head"><span id="chart-label">Change by realm</span><span id="chart-unit" class="muted"></span></div>
+          <div id="bars" class="bars" role="img" aria-label="Realm change bar chart"></div>
+        </div>
+        <aside class="insight" id="insight"></aside>
+      </div>
+      <div class="table-wrap slim">
+        <table>
+          <thead><tr><th>Realm</th><th>Side</th><th class="number">Start</th><th class="number">End</th><th class="number">Change</th><th class="number">Share</th></tr></thead>
+          <tbody id="period-body"></tbody>
+        </table>
+      </div>
+      <div class="empty" id="period-empty" hidden>
+        <strong>This period does not have both boundaries yet.</strong>
+        <span>Add exact snapshots at or before the start and end; the explorer will populate on the next data build.</span>
+      </div>
+    </section>
+
+    <footer><span>Season 25091 · Stage All · Top 200</span><span id="generated-at">No generated archive</span></footer>
+  </main>
+  <script src="app.js?v=20261026-2" defer></script>
+</body>
+</html>
