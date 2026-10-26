@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-26T09:28:54.177251+00:00",
+  "generated_at": "2026-10-26T10:35:23.433304+00:00",
   "season_id": 25091,
   "top_range": "200",
   "stage_id": null,
@@ -44,19 +44,19 @@
       "id": "Z2",
       "name": "Zone 2",
       "start_at": "2026-10-31T00:00:00+02:00",
-      "end_at": "2026-11-04T21:00:00+02:00"
+      "end_at": "2026-11-05T21:00:00+02:00"
     },
     {
-      "id": "Z4",
-      "name": "Zone 4",
-      "start_at": null,
-      "end_at": null
+      "id": "Z3",
+      "name": "Zone 3",
+      "start_at": "2026-11-06T00:00:00+02:00",
+      "end_at": "2026-11-13T21:00:00+02:00"
     },
     {
-      "id": "Z5",
-      "name": "Zone 5",
-      "start_at": null,
-      "end_at": null
+      "id": "FZ",
+      "name": "Final Zone",
+      "start_at": "2026-11-14T00:00:00+02:00",
+      "end_at": "2026-11-21T21:00:00+02:00"
     }
   ],
   "snapshots": [
