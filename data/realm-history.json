@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-29T08:00:35.631309+00:00",
+  "generated_at": "2026-10-30T11:02:09.283219+00:00",
   "season_id": 25091,
   "top_range": "200",
   "stage_id": null,
@@ -37,7 +37,7 @@
     {
       "id": "Statue_1",
       "name": "Statue 1",
-      "start_at": "2026-10-28T00:00:00+02:00",
+      "start_at": "2026-10-28T15:30:00+02:00",
       "end_at": "2026-10-29T15:00:00+02:00"
     },
     {
@@ -732,6 +732,141 @@
           "T5 Healed": 4188966,
           "T4 Severely Wounded": 88106393,
           "T5 Severely Wounded": 63327728
+        }
+      ]
+    },
+    {
+      "snapshot_id": "082ee1a913794e5de12f03b4",
+      "source_as_of": "2026-10-29T23:59:00+00:00",
+      "captured_at": "2026-10-30T11:00:22.968883+00:00",
+      "realms": [
+        {
+          "Realm ID": 64,
+          "Team": "enemies",
+          "Power": 9020720071,
+          "Merits": 15648438,
+          "Deaths": 24862,
+          "Healing": 1731115,
+          "Gathering": 4906368163,
+          "Total Enemy Merits": 12898068,
+          "T4 Deaths": 0,
+          "T5 Deaths": 24862,
+          "T4 Healed": 188951,
+          "T5 Healed": 1542164,
+          "T4 Severely Wounded": 3179718,
+          "T5 Severely Wounded": 77261594
+        },
+        {
+          "Realm ID": 140,
+          "Team": "allies",
+          "Power": 10224772810,
+          "Merits": 29105103,
+          "Deaths": 432302,
+          "Healing": 17962349,
+          "Gathering": 8047553020,
+          "Total Enemy Merits": 6075151,
+          "T4 Deaths": 405069,
+          "T5 Deaths": 27233,
+          "T4 Healed": 16798905,
+          "T5 Healed": 1163444,
+          "T4 Severely Wounded": 28544482,
+          "T5 Severely Wounded": 88116661
+        },
+        {
+          "Realm ID": 458,
+          "Team": "enemies",
+          "Power": 8554408774,
+          "Merits": 35106966,
+          "Deaths": 2721550,
+          "Healing": 5020797,
+          "Gathering": 9660183703,
+          "Total Enemy Merits": 9491051,
+          "T4 Deaths": 2459736,
+          "T5 Deaths": 261814,
+          "T4 Healed": 4851018,
+          "T5 Healed": 169779,
+          "T4 Severely Wounded": 26719249,
+          "T5 Severely Wounded": 88950668
+        },
+        {
+          "Realm ID": 597,
+          "Team": "allies",
+          "Power": 11044001520,
+          "Merits": 14172062,
+          "Deaths": 39367,
+          "Healing": 4601925,
+          "Gathering": 7672297925,
+          "Total Enemy Merits": 4202232,
+          "T4 Deaths": 7947,
+          "T5 Deaths": 31420,
+          "T4 Healed": 2438731,
+          "T5 Healed": 2163194,
+          "T4 Severely Wounded": 50661191,
+          "T5 Severely Wounded": 37626251
+        },
+        {
+          "Realm ID": 674,
+          "Team": "allies",
+          "Power": 8730683582,
+          "Merits": 17756882,
+          "Deaths": 314156,
+          "Healing": 11898318,
+          "Gathering": 12210619068,
+          "Total Enemy Merits": 10026501,
+          "T4 Deaths": 302875,
+          "T5 Deaths": 11281,
+          "T4 Healed": 11539902,
+          "T5 Healed": 358416,
+          "T4 Severely Wounded": 62358112,
+          "T5 Severely Wounded": 65579613
+        },
+        {
+          "Realm ID": 801,
+          "Team": "allies",
+          "Power": 10038778379,
+          "Merits": 35386760,
+          "Deaths": 766814,
+          "Healing": 23487278,
+          "Gathering": 15998664250,
+          "Total Enemy Merits": 27545497,
+          "T4 Deaths": 63385,
+          "T5 Deaths": 703429,
+          "T4 Healed": 15535496,
+          "T5 Healed": 7951782,
+          "T4 Severely Wounded": 89847721,
+          "T5 Severely Wounded": 153850967
+        },
+        {
+          "Realm ID": 828,
+          "Team": "enemies",
+          "Power": 11068219575,
+          "Merits": 15874254,
+          "Deaths": 92962,
+          "Healing": 12742374,
+          "Gathering": 11597772701,
+          "Total Enemy Merits": 6657245,
+          "T4 Deaths": 82720,
+          "T5 Deaths": 10242,
+          "T4 Healed": 10266191,
+          "T5 Healed": 2476183,
+          "T4 Severely Wounded": 55814150,
+          "T5 Severely Wounded": 59314653
+        },
+        {
+          "Realm ID": 834,
+          "Team": "enemies",
+          "Power": 12340349277,
+          "Merits": 21732537,
+          "Deaths": 173845,
+          "Healing": 30212089,
+          "Gathering": 15346661044,
+          "Total Enemy Merits": 12780882,
+          "T4 Deaths": 117912,
+          "T5 Deaths": 55933,
+          "T4 Healed": 25749499,
+          "T5 Healed": 4462590,
+          "T4 Severely Wounded": 122140949,
+          "T5 Severely Wounded": 81770296
         }
       ]
     }
